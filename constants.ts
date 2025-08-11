@@ -25,7 +25,7 @@ export const STORY_CHAPTER_TEXTS = [
     (data: UserData) => `Không chỉ dừng lại ở lý thuyết, ${data.name} đã áp dụng ngay kiến thức vào thực tế bằng cách tham gia một dự án xã hội về ${data.interest} ngay trên FaLeap. Đây là lúc kỹ năng về ${data.strength} của ${data.name} thực sự tỏa sáng, góp phần tạo nên những giá trị tích cực.`,
     (data: UserData) => `Qua mỗi dự án, hồ sơ năng lực của ${data.name} trên FaLeap ngày càng ấn tượng. Mỗi kỹ năng, mỗi kinh nghiệm đều được chứng thực và gắn liền với các hoạt động thực tế. Những câu chuyện tạo tác động xã hội được ghi lại, trở thành minh chứng rõ nét cho hành trình trưởng thành của ${data.name}.`,
     (data: UserData) => `Hồ sơ năng lực ấn tượng này đã mở ra cho ${data.name} vô vàn cơ hội. Các nhà tuyển dụng và những dự án lớn về ${data.interest} đã tìm đến ${data.name}. Cuối cùng, ${data.name} đã đạt được trải nghiệm ao ước, một bước đệm vững chắc trên con đường sự nghiệp.`,
-    (data: UserData) => `Nhưng ${data.name} không dừng lại. Với kinh nghiệm và sự tự tin đã có, bạn quyết định tự tạo một dự án của riêng mình trên FaLeap, hiện thực hóa ước mơ ${data.dream} và tiếp tục lan tỏa giá trị cho cộng đồng. Hành trình của ${data.name} là nguồn cảm hứng cho rất nhiều bạn trẻ khác.`
+    (data: UserData) => `Nhưng ${data.name} không dừng lại. Với kinh nghiệm và sự tự tin đã có, ${data.name} quyết định tự tạo một dự án của riêng mình trên FaLeap, hiện thực hóa ước mơ ${data.dream} và tiếp tục lan tỏa giá trị cho cộng đồng. Hành trình của ${data.name} là nguồn cảm hứng cho rất nhiều bạn trẻ khác.`
 ];
 
 export const getImagesByGender = (gender: 'male' | 'female'): string[] => {
